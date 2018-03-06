@@ -1,0 +1,28 @@
+{
+  "name": "sample",
+  "description": "you did not put any description",
+  "display":"sample", 
+  "subtitle":"Its a sample app",
+  "version": "1.0.0",
+  "theme":"#63b208",
+  "launch_path": "/index.html",
+  "icons": {
+    "128": "/src/icons/icon128x128.png"
+  },
+  "type": "privileged",
+  "permissions": {
+    "themeable":{"name": "themeable"},
+    "systemXHR": { "description": "This permission is require to call web api" }
+  },
+  "developer": {
+    "name": "Bob",
+    "url": ""
+  },
+  "fullscreen": true,
+  "default_locale": "en",
+  "locales": {
+  "en-US": {
+      "name": "Sample"
+    }
+  }
+}

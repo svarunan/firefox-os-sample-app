@@ -1,0 +1,51 @@
+.iframeClass {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+
+body {
+    margin: 0;
+    background-color: #00bcd452;
+}	
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    background: #00BCD4;
+    width: 100%;
+}
+
+.header {
+    text-align: center;
+    background: #00BCD4;
+}
+
+.lsk {
+    float: left;
+}
+
+.csk {
+    float: left;
+    padding-left: 32%;
+}
+
+.rsk {
+    float: right;
+}
+
+.root {
+    padding-left: 10%;
+}
+
+.move:focus {
+    background: #8BC34A;
+    outline: none;
+}
+
+video {
+    width: 90%;
+    padding-left: 5%;
+    bottom: 10%;
+    position: absolute;
+}
